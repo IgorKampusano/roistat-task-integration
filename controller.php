@@ -9,7 +9,7 @@ if (isset($_POST['send_request'])) {
     $price = (int)$_POST['client_lead_price'];
     $isLong = false;
     // проверяем, прошло ли 30 секунд и более
-    if (time() - $_COOKIE['timeOut'] >= 30) {
+    if ((time() - $_COOKIE['timeOut']) >= 30) {
         $isLong = true;
     }
 
