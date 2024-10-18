@@ -17,3 +17,5 @@ controller.php - скрипт для отправки данных в amoCRM
 
 index.php - файл с формой
 
+settings.php - файл с ключами
+
